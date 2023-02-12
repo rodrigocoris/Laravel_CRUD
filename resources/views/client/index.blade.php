@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container py-5 text-center">
-        <h1 class="text-center">Listado de clientes</h1>
+        <h1 class="text-center">Aqui se muestra el listado de clientes</h1>
         <a href="{{ route('client.create') }}" class="btn btn-primary">Crear Cliente</a>
 
         @if (Session::has('mensaje'))
