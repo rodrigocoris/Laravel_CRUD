@@ -29,7 +29,8 @@
                         <form action="{{ route('client.destroy', $detail) }} " method="post" class="d-inline">
                         @method('DELETE')
                         @csrf
-                        <button type="submit" class="btn btn-danger" onclick="return confirm('Estas seguro de eliminar este cliente?')">Eliminar</button>            
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Estas seguro de eliminar este cliente?')">Eliminar</button>
+                        </form>            
                     </td>
                 </tr> 
 
